@@ -10,7 +10,7 @@ namespace GitDemoConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World: 3-feature from sourcetree");
+            Console.WriteLine("Hello World: Master branch");
 
             //wait for user input so we can reat the screen
             Console.WriteLine("\r\n\r\n\r\nPress 'Enter' to close");
