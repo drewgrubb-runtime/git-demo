@@ -10,10 +10,14 @@ namespace GitDemoConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World: Master branch");
+            string welcomeMessage = "Hello World: Welcome to Git Demo";
+            string closeMessage = "\r\n\r\n\r\nPress 'Enter' to close";
 
-            //wait for user input so we can reat the screen
-            Console.WriteLine("\r\n\r\n\r\nPress 'Enter' to close");
+            //display our welcome message
+            Console.WriteLine(welcomeMessage);
+
+            //wait for user input so we can read the screen
+            Console.WriteLine(closeMessage);
             Console.ReadLine();
         }
     }
