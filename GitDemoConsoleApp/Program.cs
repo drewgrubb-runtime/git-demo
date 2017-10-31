@@ -12,6 +12,10 @@ namespace GitDemoConsoleApp
         {
             Console.WriteLine("Hello World: Master branch");
 
+            //write some extra messages
+            Console.WriteLine("Additional message 1");
+            Console.WriteLine("Additional message 2");
+            
             //wait for user input so we can reat the screen
             Console.WriteLine("\r\n\r\n\r\nPress 'Enter' to close");
             Console.ReadLine();
